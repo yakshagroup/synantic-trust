@@ -1,7 +1,9 @@
 # Audit seal public keys — the trust anchor of the evidence receipts
 
-This directory is the **publication point** for the public keys that verify
-the sealed audit-chain receipts (roadmap 19.12/D10). The GitHub repo's
+**Published at: https://github.com/yakshagroup/synantic-trust**
+
+This repository is the **publication point** for the public keys that verify
+the sealed audit-chain and vault receipts (roadmap 19.12/D10). The GitHub
 commit history is the point: a key published here at a known commit has a
 timestamp and content hash nobody — including the platform's owners — can
 rewrite without the change being visible.

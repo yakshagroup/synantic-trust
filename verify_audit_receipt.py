@@ -22,6 +22,8 @@ pinning in a language that does not rot.
 Usage:
     python verify_audit_receipt.py RECEIPTS.jsonl PUBLIC_KEY.der
     # optional second seal: --slh-pub public-slh.pem checks it too
+    # public keys are published at
+    # https://github.com/yakshagroup/synantic-trust
 
 Exit codes: 0 = all receipts verify, 1 = at least one fails or is
 malformed, 2 = the files could not be read at all.
