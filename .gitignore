@@ -1,0 +1,8 @@
+# The keys directory holds ONLY public material (README explains why).
+# The private halves live in ~/.secrets/synantic-audit-seal — outside this
+# repo, outside the platform's code tree, and if one ever lands here this
+# ignore list is the last thing standing between it and a public push.
+*.key
+*.pem.priv
+*private*
+!.gitignore

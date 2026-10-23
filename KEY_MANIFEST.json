@@ -1,0 +1,21 @@
+{
+  "keys": [
+    {
+      "algorithm": "ML-DSA-65",
+      "file": "ml-dsa-65/ml-dsa-65-2026.der",
+      "key_id": "ml-dsa-65-2026",
+      "published_on": "2026-10-23",
+      "sha256": "b3e72f8d0b20c1ae8d599bd8376cc015e894a6f34f60ee84ddbe0660e71b9142",
+      "status": "active"
+    },
+    {
+      "algorithm": "SLH-DSA-SHA2-128s",
+      "file": "slh-dsa-sha2-128s/slh-dsa-sha2-128s-2026.pem",
+      "key_id": "slh-dsa-sha2-128s-2026",
+      "published_on": "2026-10-23",
+      "sha256": "68b1229a0a42686a63c5f580283ba2acfd7a8619df348132016e18a6cfe66db1",
+      "status": "active"
+    }
+  ],
+  "note": "Authoritative list of audit-seal public keys. A receipt's key_id names its row here. Statuses: active / retired / compromised. Never delete a row — retired keys still verify old receipts."
+}
